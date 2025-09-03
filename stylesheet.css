@@ -1,0 +1,162 @@
+body {
+    font-family: Roboto, sans-serif;  /* or any font you like */
+  }
+
+.TopBox{
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px 50px;
+    margin: 10px 50px;
+    font-size: 18px;
+}
+img.smallLogo {
+    width: 100px;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    color: white;
+    list-style-type: none;
+}
+
+.headerInfo{
+    display: flex;
+    padding: 50px; 
+    color: white; 
+    gap: 10px;
+}
+h1{
+    font-weight: 900px;
+    font-size: 48px;
+    color: #f9faf8
+}
+
+img.bigLogo{
+    width: auto;
+    height: 300px;
+    background: lightslategrey;
+}
+
+.signup{
+    background: #3882f6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    margin: 10px auto;
+    color: white;
+    font-weight: 550;
+}
+
+.MiddleBox{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+
+}
+
+.AllBoxes{
+    display: flex;
+    gap: 40px;
+    margin: 30px;
+    justify-content: center;
+}
+
+* { box-sizing: border-box; }
+.boxAC{
+    height: auto;
+    width: 150px;
+    margin-bottom: 20px; 
+}
+.theBox{
+    border: 2px solid #3882f6;
+    padding: 10px;
+    margin: 10px 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+.boxInfo{
+  text-align: center;
+  font-size: 16px;
+}
+
+.testimony{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7% 20%;
+    font-size: 30px;
+    font-style: italic;
+    font-weight:300;
+    background-color: #e5e7eb;
+    color:#1F2937
+}
+.signature{
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.bottomMiddle{
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    width: 75%;
+    margin: 70px auto;
+    border-radius: 6px;
+    padding: 40px;
+    gap: 50px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.cta{
+    font-weight: 900;
+    font-size: 18px;
+}
+.details{
+    font-size: 15px;
+    font-weight: 75;
+}
+.signup2{
+    font-size: 16px;
+    font-weight: 550;
+    border-radius: 6px;
+    padding: 5px 25px;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+}
+
+.footer{
+    text-align: center;
+    font-size: 13px;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    font-weight: 50;
+}
